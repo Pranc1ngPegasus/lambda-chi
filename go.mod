@@ -9,5 +9,5 @@ require (
 	github.com/go-chi/render v1.0.1
 	github.com/google/wire v0.4.0
 	github.com/kelseyhightower/envconfig v1.4.0
-	github.com/sirupsen/logrus v1.7.0
+	github.com/sirupsen/logrus v1.8.1
 )
