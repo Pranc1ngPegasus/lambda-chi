@@ -1,20 +1,15 @@
 version: 2
 updates:
-- package-ecosystem: gomod
-  directory: '/'
-  schedule:
-    interval: daily
-  open-pull-requests-limit: 10
-  reviewers:
-    - pranc1ngpegasus
-  assignees:
-    - pranc1ngpegasus
-- package-ecosystem: github-actions
-  directory: '/'
-  schedule:
-    interval: daily
-  open-pull-requests-limit: 10
-  reviewers:
-    - pranc1ngpegasus
-  assignees:
-    - pranc1ngpegasus
+  - package-ecosystem: gomod
+    directory: '/'
+    schedule:
+      interval: daily
+    reviewers:
+      - 'Pranc1ngPegasus'
+  - package-ecosystem: github-actions
+    directory: '/'
+    schedule:
+      interval: daily
+    reviewers:
+      - 'Pranc1ngPegasus'
+
